@@ -1,9 +1,10 @@
 'use strict';
 
 const request = require('request');
+require('env2')('.env'); // loads all entries into process.env
 
 // Replace <Subscription Key> with your valid subscription key.
-const subscriptionKey = 'c7ff783c4d0e4138a671a340e84e7127';
+const subscriptionKey = process.env.ComputerVisionKey;
 
 // You must use the same location in your REST call as you used to get your
 // subscription keys. For example, if you got your subscription keys from
