@@ -1,0 +1,23 @@
+{
+  "name": "computervision",
+  "version": "1.0.0",
+  "description": "Image Processing for Medi Assist with Microsoft Computer Vision API",
+  "main": "app.js",
+  "dependencies": {
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "hi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nirmalrayan/computervision.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nirmalrayan/computervision/issues"
+  },
+  "homepage": "https://github.com/nirmalrayan/computervision#readme"
+}
